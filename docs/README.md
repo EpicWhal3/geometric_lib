@@ -27,7 +27,7 @@
     input: print(area(10))
     output: 314.1592653589793
     ```
-  - ### perimeter(r)
+  - #### perimeter(r)
     Так же получает число r - радиус окружности. Результатом фунцкии является периметр окружности, вычисленный по формулуе $P = 2πr$. Пример вызова фунции:
 
     ```
@@ -36,14 +36,14 @@
     ```
 
 ## rectangle.py
-  - ### area(a, b)
+  - #### area(a, b)
     Принимает 2 числа: $a$ и $b$ - стороны прямоугольника. Возвращает площадь прямоугольника с данными сторонами по формуле $S = a \cdot b$. Пример при введеных размерах 3 и 5:
 
     ```
     input: print(area(3, 5))
     output: 15
     ```
-  - ### perimeter(a, b)
+  - #### perimeter(a, b)
     Фунция для нахождения периметра прямоугольника по заданным размерам a и b по формуле $P = 2 \cdot a + 2 \cdot b$:
     ```
     input: print(perimeter(3, 5))
@@ -65,7 +65,7 @@
 
 ## triangle.py
   - #### area(a, h)
-    Функция получает два значения: длину основания треугольника и его высоту. Возвращаемое значение: площадь треугольника, вычисляемое по формуле $S = \frac{a \cdot h}{2}$. Пример вызова при значениях 5 и 19:
+    Функция получает два значения: длину основания треугольника и его высоту. Возвращаемое значение: площадь треугольника, вычисляемое по формуле $S = \Large{\frac{a \cdot h}{2}}$. Пример вызова при значениях 5 и 19:
     ```
     input: print(area(5, 19))
     output: 47,5
@@ -78,13 +78,15 @@
     ```
 
 # История изменений проекта
-```
-* 3bd5f51 (HEAD -> documentation_408783, origin/documentation_408783) docs: add comment to triangle.py and square.py
-* c12a8fa docs: add doc to rectangle.py functions
-* 21b17dc docs: add comment to circle.py
-* b792bd2 (origin/main, origin/HEAD, new_features_408783, main) fixed formula
-* 682a830 added file triangle.py
-* 1055cb6 added new file rectangle.py
-* d078c8d L-03: Docs added
-* 8ba9aeb L-03: Circle and square added
-```
+
+| Хэш     | Автор     | Дата                     | Комментарий                                    |
+|---------|-----------|--------------------------|------------------------------------------------|
+| 726624d | EpicWhal3 | Tue Oct 10 01:14:43 2023 | docs: README update                            |
+| 3bd5f51 | EpicWhal3 | Sun Oct 1 15:58:32 2023  | docs: add comment to triangle.py and square.py |
+| c12a8fa | EpicWhal3 | Sun Oct 1 15:43:36 2023  | docs: add doc to rectangle.py functions        |
+| 21b17dc | EpicWhal3 | Sun Oct 1 15:20:42 2023  | docs: add comment to circle.py                 |
+| b792bd2 | EpicWhal3 | Thu Sep 14 15:34:16 2023 | fixed formula                                  |
+| 682a830 | EpicWhal3 | Thu Sep 14 15:33:19 2023 | added file triangle.py                         |
+| 1055cb6 | EpicWhal3 | Thu Sep 14 15:30:55 2023 | added new file rectangle.py                    |
+| d078c8d | smartiqa  | Thu Mar 4 14:55:29 2021  | L-03: Docs added                               |
+| 8ba9aeb | smartiqa  | Thu Mar 4 14:54:08 2021  | L-03: Circle and square added                  |
