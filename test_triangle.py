@@ -26,3 +26,8 @@ class TriangleTestCase(unittest.TestCase):
 
         res_c = triangle.perimeter(6, 7, 0)
         self.assertEqual(res_c, 0)
+    
+    def test_perimiteter_summ(self):
+        res = triangle.perimeter(5, 8, 13)
+        self.assertEqual(res, 26)
+    
