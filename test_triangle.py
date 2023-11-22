@@ -32,5 +32,5 @@ class TriangleTestCase(unittest.TestCase):
         self.assertEqual(res, 26)
 
     def test_negative(self):
-        perim = triangle.perimeter(-1, -2, -3)
-        self.assertEqual(res)
+        res = triangle.perimeter(-1, -2, -3)
+        self.assertEqual(res, 0)
