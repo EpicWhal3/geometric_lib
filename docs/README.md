@@ -77,10 +77,24 @@
     output: 42
     ```
 
+# Автотестирование
+Общее количество автотестов $=$ 18.
+
+Из них программа успешно прошла 15.
+
+Autotests success: $\: \Large\frac{15}{18}$ $\:(\sim 83.3\%)$
+
 # История изменений проекта
 
 | Хэш     | Автор     | Дата                     | Комментарий                                    |
-|---------|-----------|--------------------------|------------------------------------------------|
+| ------- | --------- | ------------------------ | ---------------------------------------------- |
+| 51f3f3b | EpicWhal3 | Wed Nov 22 17:07:23 2023 | fix: rectangle and triangle rebuild,           |
+|         |           |                          | test_traingle fix                              |
+| 7b0f428 | EpicWhal3 | Mon Nov 20 14:16:36 2023 | feat: update circle and triangle tests         |
+| ec179bc | EpicWhal3 | Sun Nov 5 15:46:14 2023  | feat: add new tests; fix: modified rectangle   |
+|         |           |                          | and triangle tests                             |
+| bf2343f | EpicWhal3 | Fri Oct 27 13:31:18 2023 | fix: upd formulas triangle and rectangle;      |
+|         |           |                          | test: add rectangle and triangle tests         |
 | 726624d | EpicWhal3 | Tue Oct 10 01:14:43 2023 | docs: README update                            |
 | 3bd5f51 | EpicWhal3 | Sun Oct 1 15:58:32 2023  | docs: add comment to triangle.py and square.py |
 | c12a8fa | EpicWhal3 | Sun Oct 1 15:43:36 2023  | docs: add doc to rectangle.py functions        |
