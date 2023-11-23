@@ -88,6 +88,7 @@ Autotests success: $\: \Large\frac{7}{18}$ $\:(\sim 38,9\%)$
 
 | Хэш     | Автор     | Дата                     | Комментарий                                    |
 | ------- | --------- | ------------------------ | ---------------------------------------------- |
+| 1b1468a | EpicWhal3 | Thu Nov 23 12:06:11 2023 | tests: fix all tests; docs: correct autotests  |
 | 51f3f3b | EpicWhal3 | Wed Nov 22 17:07:23 2023 | fix: rectangle and triangle rebuild,           |
 |         |           |                          | test_traingle fix                              |
 | 7b0f428 | EpicWhal3 | Mon Nov 20 14:16:36 2023 | feat: update circle and triangle tests         |
