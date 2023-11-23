@@ -5,7 +5,7 @@ import circle
 class CircleTestCase(unittest.TestCase):
     def test_zero_radius(self):
         res = circle.area(0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, ValueError)
 
     def test_area_calc(self):
         res = circle.area(5)
@@ -13,7 +13,7 @@ class CircleTestCase(unittest.TestCase):
 
     def test_zero_length(self):
         res = circle.perimeter(0)
-        self.assertEqual(res, 0)
+        self.assertEqual(res, ValueError)
 
     def test_length_calc(self):
         res = circle.perimeter(8)
