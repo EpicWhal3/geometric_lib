@@ -17,4 +17,4 @@ class CircleTestCase(unittest.TestCase):
 
     def test_length_calc(self):
         res = circle.perimeter(8)
-        self.assertAlmostEqual(res, 50.2, 1)
+        self.assertAlmostEqual(res, 50.3, 1)
