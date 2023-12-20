@@ -82,7 +82,7 @@
 
 Из них программа успешно прошла 7.
 
-Autotests success: $\: \Large\frac{7}{18}$ $\:(\sim 38,9\%)$
+Autotests success: $\: \Large\frac{7}{18}$ ~ 38,9\%
 
 # История изменений проекта
 
