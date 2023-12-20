@@ -1,7 +1,7 @@
 name: Python geometric function tests
 
 on:
-  [push]:
+  push:
 
 jobs:
   runtime-process-on-Ubuntu:
@@ -20,7 +20,7 @@ jobs:
 
 
   runtime-process-on-Windows:
-      name:  Windows-latest based test
+      name: Windows-latest based test
       runs-on: windows-latest
       steps:
         - uses: actions/checkout@v4
