@@ -2,6 +2,11 @@ name: Python geometric function tests
 
 on:
   push:
+    branches: 
+      - 'cicd_408783'
+  pull_request:
+    branches: 
+      - 'main'
 
 jobs:
   runtime-process-on-Ubuntu:
