@@ -6,7 +6,7 @@ on:
       - 'cicd_408783'
   pull_request:
     branches: 
-      - 'main'
+      - main
 
 jobs:
   runtime-process-on-Ubuntu:
